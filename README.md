@@ -12,3 +12,12 @@ To run:
 terraform init
 terraform apply
 ```
+
+Or, if you've been around the block a few times:
+```
+terraform destroy -auto-approve && terraform apply -auto-approve
+# for debugging the server: 
+ssh -i "my_key.pem" ubuntu@<IP FROM ABOVE>
+# On remote machine: 
+less -N /var/log/cloud-init-output.log
+```
