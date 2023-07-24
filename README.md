@@ -9,6 +9,7 @@ To run:
 1. Update environment variables in terraform/main.tf
 2. Run the following:
 ```
+cd terraform
 terraform init
 terraform apply
 ```
