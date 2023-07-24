@@ -22,3 +22,7 @@ ssh -i "my_key.pem" ubuntu@<IP FROM ABOVE>
 # On remote machine: 
 less -N /var/log/cloud-init-output.log
 ```
+
+This example specifically applies to Lassen National Park:
+https://www.recreation.gov/camping/gateways/2803
+(Site number 2803)
